@@ -16,7 +16,7 @@ godoc{
   name: "my-docs",
 
   // Go package to build.
-  pkg: "github.com/YaroslavChirko/design-practice-2-template/build",
+  pkg: "gomodule",
 
   // Build inputs.
   srcs: ["**/*.go", "../go.mod"]
