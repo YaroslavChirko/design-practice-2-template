@@ -14,7 +14,7 @@ var (
 	// Ninja rule to execute go build.
 	goDoc= pctx.StaticRule("godoc", blueprint.RuleParams{
 		Command:     "cd $workDir&& mkdir -p ./out/docs && godoc -url=./>'./${outputPath}.html' -goroot='./${pkg}'",
-		Description: "command to create html file",
+		Description: "command to create html file for packge ${pkg}",
 	}, "workDir", "outputPath", "name", "pkg")
 
 )
