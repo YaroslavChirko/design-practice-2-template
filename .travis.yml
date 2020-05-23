@@ -16,3 +16,5 @@ script:
   - bood
   - sudo cp ./instructions/bood_my/build.bood ./
   - ./out/bin/bood
+  - sudo cp ./instructions/bood_godoc/build.bood ./
+  - ./out/bin/bood
